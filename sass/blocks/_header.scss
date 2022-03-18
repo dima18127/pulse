@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        width: 250px;
+        img {
+            width: 100%;
+        }
+    }
+    &__official {
+        text-align: center;
+        font-size: 12px;
+        line-height: 12px;
+        color: #ffffff;
+        font-weight: 500;
+        span {
+            display: block;
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    &__phone {
+        display: block;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: white;
+        transition: 0.6s all;
+        &:hover {
+            color: white;
+            font-size: 19px;
+            text-decoration: none;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    // &__icons {
+    // }
+    // &__icon {
+    // }
+    // &__button {
+    // }
+    // &__button_main {
+    // }
+    // &__link {
+    // }
+}
