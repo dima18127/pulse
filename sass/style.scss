@@ -1,5 +1,7 @@
 @import "base/variables";
-
+body {
+    background-color: #f6f6f6;
+}
 .container {
     max-width: 950px;
     margin: 0 auto;
@@ -9,4 +11,7 @@
 @import "blocks/header";
 @import "blocks/buttons";
 @import "blocks/second";
-
+@import "blocks/media";
+@import "blocks/consultation";
+@import "blocks/tittle";
+@import "blocks/forms";
