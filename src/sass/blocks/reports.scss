@@ -1,0 +1,46 @@
+.reports {
+    &__containers {
+        display: flex;
+    }
+
+    &_img {
+        display: block;
+        margin: 60px auto;
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+        text-align: center;
+    }
+
+    &__content {
+        max-width: 680px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__content-header {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0d0d0d;
+    }
+
+    &__content-descr {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+
+    &__content-text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0d0d0d;
+    }
+}
+// .container {
+// }
+// .tittle {
+// }

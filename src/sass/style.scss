@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 @import "base/variables";
 body {
-    background-color: #f6f6f6;
+    background-color: #ffffff;
 }
 .container {
     max-width: 950px;
@@ -11,7 +15,12 @@ body {
 @import "blocks/header";
 @import "blocks/buttons";
 @import "blocks/second";
-@import "blocks/media";
 @import "blocks/consultation";
 @import "blocks/tittle";
 @import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/reports";
+@import "blocks/footer";
+
+@import "blocks/media";
