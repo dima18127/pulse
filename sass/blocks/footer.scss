@@ -1,0 +1,47 @@
+.footer {
+    position: relative;
+    margin-top: 26px;
+    height: 630px;
+
+    &__map {
+    }
+
+    &__info {
+        padding: 50px 50px 50px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background: #c70101;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__addr {
+        padding-bottom: 36px;
+    }
+    &__phone {
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__social {
+        display: block;
+        margin-top: 36px;
+        :first-child {
+            margin-left: 0;
+        }
+    }
+    &__social-item {
+        img {
+            margin: 0 15px 0;
+        }
+    }
+    
+}
