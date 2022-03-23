@@ -8,5 +8,13 @@
         line-height: 30px;
         color: #ffffff;
     }
-    
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: white;
+        border: none;
+        text-align: left;
+        margin-top: 10px;
+    }
 }

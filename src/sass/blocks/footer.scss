@@ -30,6 +30,11 @@
         line-height: 20px;
         text-align: center;
         color: #ffffff;
+        transition: 0.5s all;
+        &:hover {
+            color: #ffffff;
+            font-size: 22px;
+        }
     }
     &__social {
         display: block;
@@ -43,5 +48,4 @@
             margin: 0 15px 0;
         }
     }
-    
 }
