@@ -11,6 +11,10 @@
     text-transform: uppercase;
     background-color: $main-color;
     font-weight: 500;
+    &:hover {
+        box-shadow: 3px 3px 20px $main-color;
+        border: none;
+    }
     &_main {
         margin-top: 67px;
         height: 54px;

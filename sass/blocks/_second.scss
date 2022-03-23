@@ -33,6 +33,14 @@
             display: block;
             margin: 0 auto;
         }
+        &_animated {
+            img {
+                animation: heartbeat 1.8s ease infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
+        }
     }
 
     &__subheader {

@@ -3,6 +3,7 @@
 }
 
 @import "base/variables";
+@import "base/animations";
 body {
     background-color: #ffffff;
 }
@@ -11,6 +12,7 @@ body {
     margin: 0 auto;
     font-family: "MuseoModerno";
 }
+
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
@@ -22,5 +24,7 @@ body {
 @import "blocks/catalog";
 @import "blocks/reports";
 @import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
 
 @import "blocks/media";
