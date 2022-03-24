@@ -121,7 +121,8 @@ $(document).ready(function(){
         });
         return false;
     });
-
+    
+    AOS.init();
 
 });  
 
